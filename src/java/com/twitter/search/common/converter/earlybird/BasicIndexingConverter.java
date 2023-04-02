@@ -40,7 +40,7 @@ import com.twitter.search.common.util.spatial.GeoUtil;
 import com.twitter.search.common.util.text.NormalizerHelper;
 import com.twitter.tweetypie.thriftjava.ComposerSource;
 
-/**
+/** freedom init
  * Converts a TwitterMessage into a ThriftVersionedEvents. This is only responsible for data that
  * is available immediately when a Tweet is created. Some data, like URL data, isn't available
  * immediately, and so it is processed later, in the DelayedIndexingConverter and sent as an
